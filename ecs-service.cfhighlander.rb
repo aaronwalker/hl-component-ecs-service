@@ -31,6 +31,7 @@ CfhighlanderTemplate do
         ComponentParam "SubnetCompute#{az}"
       end
       ComponentParam 'SecurityGroupBackplane'
+      ComponentParam 'StackOctet'
     end
 
     task_definition.each do |task_def, task|
